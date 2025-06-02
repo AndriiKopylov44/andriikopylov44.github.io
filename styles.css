@@ -24,9 +24,6 @@ header {
 }
 
 
-
-
-
 .logo-area {
   display: flex;
   align-items: center;
@@ -54,11 +51,13 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 2rem;
-  max-width: 1230px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-
+a{
+  max-width: 420px;
+}
 
 .site-footer {
   background-color: #111;
@@ -96,8 +95,6 @@ main {
 .footer-text a:hover {
   text-decoration: underline;
 }
-
-
 
 
 				*/ ITEM_PAGE */
