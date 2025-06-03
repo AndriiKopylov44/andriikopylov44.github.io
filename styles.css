@@ -49,15 +49,30 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-a {
-  max-width: 420px;
+#grid_a > a{
+    margin: 0 auto;
 }
+
+@media (max-width: 490px) {
+.responsive  {
+  width: 100%;
+}
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+nav a {
+  margin-left: 3rem;
+}
+}
+
+
+
 
 .site-footer {
   background-color: #111;
@@ -92,23 +107,13 @@ a {
   text-decoration: none;
 }
 
-.footer-text a:hover {
-  text-decoration: underline;
-}
-
 
 				*/ ITEM_PAGE */
-
-
-
 * {
   margin: 0;
   padding: 0;
   
 }
-
-
-
 
 
 @media (min-width: 600px) {
