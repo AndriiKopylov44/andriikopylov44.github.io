@@ -95,7 +95,7 @@ nav a {
   border-radius: 20%;
   background: #333;
   padding: 1px 4px;
-  transition: background 0.3s;
+  transition: background 0.5s;
 }
 
 .footer-icons img:hover {
