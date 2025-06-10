@@ -175,3 +175,31 @@ h2 {
   color: #fff;
 }
 
+/* Itempage_buttons */
+
+
+.foldable-content {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+    }
+
+    .toggle-button {
+      
+      padding: 8px 12px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.5s;
+    }
+
+    .toggle-button:hover {
+      background: #555;
+    }
+#a_button {
+    text-decoration: none;
+    font-size: 0.8rem;
+
+}
